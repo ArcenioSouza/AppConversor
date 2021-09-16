@@ -98,21 +98,21 @@ const BodyMeasure = () => {
             <label>De</label>
             <input type='number' id='input-text1' placeholder='Digite o valor'></input>
             <select id='select-in' onChange={onChangeMeasureFor}>
-              <option id='input-op1'>Selecione uma medida</option>
-              <option id='input-op2'>Quilômetros</option>
-              <option id='input-op3'>Metros</option>
-              <option id='input-op4'>Centimetros</option>
-              <option id='input-op5'>Milimetros</option>
+              <option>Selecione uma medida</option>
+              <option>Quilômetros</option>
+              <option>Metros</option>
+              <option>Centimetros</option>
+              <option>Milimetros</option>
             </select>
           </div>
           <br/> 
           <div>
             <label>Para</label>
               <select id='select-for' onChange={onChangeMeasureFor}>
-                <option id='input-op2'>Quilômetros</option>
-                <option id='input-op3'>Metros</option>
-                <option id='input-op4'>Centimetros</option>
-                <option id='input-op5'>Milimetros</option>
+                <option>Quilômetros</option>
+                <option>Metros</option>
+                <option>Centimetros</option>
+                <option>Milimetros</option>
               </select>
           </div>
           <br/>
