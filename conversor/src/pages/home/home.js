@@ -1,19 +1,11 @@
 import React from 'react'
-import Navbar from '../../components/navbar/navbar'
-/* import BodyMeasure from '../../components/body/bodyMeasure' */
-/* import BodyTemperature from '../../components/body/bodyTemperature' */
-import BodyCurrency from '../../components/body/bodyCurrency'
+import Routes from '../../route/routes'
 
 const HomePage = () => {
 
   return (
     <>
-      <div className='header'>
-        <Navbar/>
-      </div>
-      <div className='body'>
-        <BodyCurrency/>
-      </div>     
+      <Routes/>     
     </>
 
   )

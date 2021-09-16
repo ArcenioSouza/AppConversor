@@ -1,5 +1,6 @@
 import React from "react";
 import "../navbar/navbar.css"
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -14,9 +15,9 @@ const Navbar = () => {
         </div>
         <div id='options-list'>
           <ul>
-            <li>Distância</li>
-            <li>Temperatura</li>
-            <li>Moeda</li>
+            <Link id='link' to="/BodyMeasure"><li>Distância</li></Link>
+            <Link id='link' to="/BodyTemperature"><li>Temperatura</li></Link>
+            <Link id='link' to="/BodyCurrency"><li>Moeda</li></Link>            
           </ul>
         </div>
       </div>
