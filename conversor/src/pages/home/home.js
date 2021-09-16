@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/navbar/navbar'
-import Body from '../../components/body/body'
+import BodyMeasure from '../../components/body/body'
 /* import "./home.css" */
 
 const HomePage = () => {
@@ -11,7 +11,7 @@ const HomePage = () => {
         <Navbar/>
       </div>
       <div className='body'>
-        <Body/>
+        <BodyMeasure/>
       </div>     
     </>
 

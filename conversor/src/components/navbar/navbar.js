@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
         <div id='options-list'>
           <ul>
-            <li>Medidas</li>
+            <li>Distância</li>
             <li>Temperatura</li>
             <li>Moeda</li>
           </ul>

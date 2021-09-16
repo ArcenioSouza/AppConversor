@@ -59,6 +59,11 @@
   text-align: center;
 }
 
+.body-form .form-wrapper #select-para {
+  padding: 5px 40px;
+  border-radius: 5px;
+}
+
 .body-form .form-wrapper input {
   padding: 5px;
   border-radius: 5px;
