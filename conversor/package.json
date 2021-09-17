@@ -40,5 +40,8 @@
   "main": "index.js",
   "author": "Arcenio Souza",
   "license": "ISC",
-  "repository": "https://github.com/ArcenioSouza/AppConversor"
+  "repository": "https://github.com/ArcenioSouza/AppConversor",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
