@@ -1,6 +1,5 @@
 import React from "react";
 import '../body/body.css';
-import Navbar from '../navbar/navbar'
 
 const BodyCurrency = () => {
 
@@ -70,41 +69,38 @@ const BodyCurrency = () => {
   }
 
   return(
-    <>
-      <Navbar/>
-      <div className='body-container'>
-        <div className='body-title'>
-          <h1>Conversor de <span id='type-converter'>Moedas</span></h1>
-        </div>
-        <div className='body-form'>
-          <form className='form-wrapper'>
-            <div>
-              <label>De</label>
-              <input type='number' id='input-text1' placeholder='Digite o valor'></input>
-              <select id='select-in' onChange={onChangeMeasureFor}>
-                <option>Selecione uma moeda</option>
-                <option>Dólar</option>
-                <option>Euro</option>
-                <option>Reais</option>
-              </select>
-            </div>
-            <br/> 
-            <div>
-              <label>Para</label>
-                <select id='select-for' onChange={onChangeMeasureFor}>
-                <option>Dólar</option>
-                <option>Euro</option>
-                <option>Reais</option>
-                </select>
-            </div>
-            <br/>
-            <div>
-              <h2 id='result'>Resultado</h2>
-            </div>        
-          </form>
-        </div>
+    <div className='body-container'>
+      <div className='body-title'>
+        <h1>Conversor de <span id='type-converter'>Moedas</span></h1>
       </div>
-    </>
+      <div className='body-form'>
+        <form className='form-wrapper'>
+          <div>
+            <label>De</label>
+            <input type='number' id='input-text1' placeholder='Digite o valor'></input>
+            <select id='select-in' onChange={onChangeMeasureFor}>
+              <option>Selecione uma moeda</option>
+              <option>Dólar</option>
+              <option>Euro</option>
+              <option>Reais</option>
+            </select>
+          </div>
+          <br/> 
+          <div>
+            <label>Para</label>
+              <select id='select-for' onChange={onChangeMeasureFor}>
+              <option>Dólar</option>
+              <option>Euro</option>
+              <option>Reais</option>
+              </select>
+          </div>
+          <br/>
+          <div>
+            <h2 id='result'>Resultado</h2>
+          </div>        
+        </form>
+      </div>
+    </div>
   )
 }
 

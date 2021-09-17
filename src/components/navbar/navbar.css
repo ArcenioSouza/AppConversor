@@ -21,10 +21,10 @@
 }
 
 .wrapper-options{
+  color: #fff;
   width: 70%;
   display: flex;
   flex-direction: column;
-  color: #fff;
 }
 
 .wrapper-options #options-title{
@@ -41,12 +41,6 @@
   font-weight: 900;
 }
 
-.wrapper-options #options-list ul #link{
-  text-decoration: none;
-  color: #fff;
-
-}
-
 .wrapper-options #options-list ul li{
   padding: 10px 20px 10px 20px;
 }
@@ -55,4 +49,3 @@
   background-color: #ff0000;
   border-radius: 25px;
 }
-
