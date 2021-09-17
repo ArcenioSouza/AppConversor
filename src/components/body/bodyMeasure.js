@@ -18,13 +18,13 @@ const BodyMeasure = () => {
           let result = number * 1000
           document.getElementById('result').innerText =  "O resultado é igual a: "+result+" Metros"
          }
-         if(opIn === "Quilômetros" && opFor === "Centimetros"){
+         if(opIn === "Quilômetros" && opFor === "Centímetros"){
           let result = number * 100000
-          document.getElementById('result').innerText =  "O resultado é igual a: "+result+" Centimetros"
+          document.getElementById('result').innerText =  "O resultado é igual a: "+result+" Centímetros"
          }
-         if(opIn === "Quilômetros" && opFor === "Milimetros"){
+         if(opIn === "Quilômetros" && opFor === "Milímetros"){
           let result = number * 1000000
-          document.getElementById('result').innerText =  "O resultado é igual a: "+result+" Milimetros"
+          document.getElementById('result').innerText =  "O resultado é igual a: "+result+" Milímetros"
          }
 
          /* conversões de metros -- para */
@@ -36,49 +36,49 @@ const BodyMeasure = () => {
           let result = number / 1000
           document.getElementById('result').innerText =  "O resultado é igual a: "+result+" Quilômetros"
          }
-         if(opIn === "Metros" && opFor === "Centimetros"){
+         if(opIn === "Metros" && opFor === "Centímetros"){
           let result = number * 100
-          document.getElementById('result').innerText =  "O resultado é igual a: "+result+" Centimetros"
+          document.getElementById('result').innerText =  "O resultado é igual a: "+result+" Centímetros"
          }
-         if(opIn === "Metros" && opFor === "Milimetros"){
+         if(opIn === "Metros" && opFor === "Milímetros"){
           let result = number * 1000
-          document.getElementById('result').innerText =  "O resultado é igual a: "+result+" Milimetros"
+          document.getElementById('result').innerText =  "O resultado é igual a: "+result+" Milímetros"
          }
 
          /* conversões de centimetros -- para */
 
-         if(opIn === "Centimetros" && opFor === "Centimetros"){
-          document.getElementById('result').innerText =  "O resultado é igual a: "+number+" Centimetros"
+         if(opIn === "Centímetros" && opFor === "Centímetros"){
+          document.getElementById('result').innerText =  "O resultado é igual a: "+number+" Centímetros"
          }
-         if(opIn === "Centimetros" && opFor === "Quilômetros"){
+         if(opIn === "Centímetros" && opFor === "Quilômetros"){
           let result = number / 100000
           document.getElementById('result').innerText =  "O resultado é igual a: "+result+" Quilômetros"
          }
-         if(opIn === "Centimetros" && opFor === "Metros"){
+         if(opIn === "Centímetros" && opFor === "Metros"){
           let result = number / 100
           document.getElementById('result').innerText =  "O resultado é igual a: "+result+" Metros"
          }
-         if(opIn === "Centimetros" && opFor === "Milimetros"){
+         if(opIn === "Centímetros" && opFor === "Milímetros"){
           let result = number * 10
-          document.getElementById('result').innerText =  "O resultado é igual a: "+result+" Milimetros"
+          document.getElementById('result').innerText =  "O resultado é igual a: "+result+" Milímetros"
          }
 
-         /* conversões de milimetros -- para */
+         /* conversões de Milímetros -- para */
 
-         if(opIn === "Milimetros" && opFor === "Milimetros"){
-          document.getElementById('result').innerText =  "O resultado é igual a: "+number+" Milimetros"
+         if(opIn === "Milímetros" && opFor === "Milímetros"){
+          document.getElementById('result').innerText =  "O resultado é igual a: "+number+" Milímetros"
          }
-         if(opIn === "Milimetros" && opFor === "Quilômetros"){
+         if(opIn === "Milímetros" && opFor === "Quilômetros"){
           let result = number / 1000000
           document.getElementById('result').innerText =  "O resultado é igual a: "+result+" Quilômetros"
          }
-         if(opIn === "Milimetros" && opFor === "Metros"){
+         if(opIn === "Milímetros" && opFor === "Metros"){
           let result = number / 1000
           document.getElementById('result').innerText =  "O resultado é igual a: "+result+" Metros"
          }
-         if(opIn === "Milimetros" && opFor === "Centimetros"){
+         if(opIn === "Milímetros" && opFor === "Centímetros"){
           let result = number * 10
-          document.getElementById('result').innerText =  "O resultado é igual a: "+result+" Centimetros"
+          document.getElementById('result').innerText =  "O resultado é igual a: "+result+" Centímetros"
          }
          
       }
@@ -104,8 +104,8 @@ const BodyMeasure = () => {
               <option>Selecione uma medida</option>
               <option>Quilômetros</option>
               <option>Metros</option>
-              <option>Centimetros</option>
-              <option>Milimetros</option>
+              <option>Centímetros</option>
+              <option>Milímetros</option>
             </select>
           </div>
           <br/> 
@@ -114,8 +114,8 @@ const BodyMeasure = () => {
               <select id='select-for' onChange={onChangeMeasureFor}>
                 <option>Quilômetros</option>
                 <option>Metros</option>
-                <option>Centimetros</option>
-                <option>Milimetros</option>
+                <option>Centímetros</option>
+                <option>Milímetros</option>
               </select>
           </div>
           <br/>

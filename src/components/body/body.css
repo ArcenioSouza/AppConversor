@@ -47,7 +47,7 @@
 }
 
 .body-form .form-wrapper div label {
-  color: #ff0000;
+  color: #000;
   font-size: 1rem;
   font-weight: 900;
 }
@@ -71,6 +71,6 @@
 }
 
 .body-form .form-wrapper h2 {
-  color: #ff0000;
+  color: #000000;
 }
 
