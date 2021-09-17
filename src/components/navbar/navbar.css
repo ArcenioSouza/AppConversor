@@ -41,6 +41,11 @@
   font-weight: 900;
 }
 
+#link{
+  text-decoration: none;
+  color: #fff;
+}
+
 .wrapper-options #options-list ul li{
   padding: 10px 20px 10px 20px;
 }
