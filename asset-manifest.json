@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/AppConversor/static/css/main.fc40f2cb.chunk.css",
-    "main.js": "/AppConversor/static/js/main.60b94182.chunk.js",
-    "main.js.map": "/AppConversor/static/js/main.60b94182.chunk.js.map",
-    "runtime-main.js": "/AppConversor/static/js/runtime-main.0651e719.js",
-    "runtime-main.js.map": "/AppConversor/static/js/runtime-main.0651e719.js.map",
-    "static/js/2.9c3df613.chunk.js": "/AppConversor/static/js/2.9c3df613.chunk.js",
-    "static/js/2.9c3df613.chunk.js.map": "/AppConversor/static/js/2.9c3df613.chunk.js.map",
-    "static/js/3.a2c78d23.chunk.js": "/AppConversor/static/js/3.a2c78d23.chunk.js",
-    "static/js/3.a2c78d23.chunk.js.map": "/AppConversor/static/js/3.a2c78d23.chunk.js.map",
-    "index.html": "/AppConversor/index.html",
-    "static/css/main.fc40f2cb.chunk.css.map": "/AppConversor/static/css/main.fc40f2cb.chunk.css.map",
-    "static/js/2.9c3df613.chunk.js.LICENSE.txt": "/AppConversor/static/js/2.9c3df613.chunk.js.LICENSE.txt"
+    "main.css": "/AppConversor/BodyMeasure/static/css/main.fc40f2cb.chunk.css",
+    "main.js": "/AppConversor/BodyMeasure/static/js/main.7442e36c.chunk.js",
+    "main.js.map": "/AppConversor/BodyMeasure/static/js/main.7442e36c.chunk.js.map",
+    "runtime-main.js": "/AppConversor/BodyMeasure/static/js/runtime-main.e4a46676.js",
+    "runtime-main.js.map": "/AppConversor/BodyMeasure/static/js/runtime-main.e4a46676.js.map",
+    "static/js/2.9c3df613.chunk.js": "/AppConversor/BodyMeasure/static/js/2.9c3df613.chunk.js",
+    "static/js/2.9c3df613.chunk.js.map": "/AppConversor/BodyMeasure/static/js/2.9c3df613.chunk.js.map",
+    "static/js/3.a2c78d23.chunk.js": "/AppConversor/BodyMeasure/static/js/3.a2c78d23.chunk.js",
+    "static/js/3.a2c78d23.chunk.js.map": "/AppConversor/BodyMeasure/static/js/3.a2c78d23.chunk.js.map",
+    "index.html": "/AppConversor/BodyMeasure/index.html",
+    "static/css/main.fc40f2cb.chunk.css.map": "/AppConversor/BodyMeasure/static/css/main.fc40f2cb.chunk.css.map",
+    "static/js/2.9c3df613.chunk.js.LICENSE.txt": "/AppConversor/BodyMeasure/static/js/2.9c3df613.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0651e719.js",
+    "static/js/runtime-main.e4a46676.js",
     "static/js/2.9c3df613.chunk.js",
     "static/css/main.fc40f2cb.chunk.css",
-    "static/js/main.60b94182.chunk.js"
+    "static/js/main.7442e36c.chunk.js"
   ]
 }
