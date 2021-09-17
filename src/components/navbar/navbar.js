@@ -15,7 +15,7 @@ const Navbar = () => {
         </div>
         <div id='options-list'>
           <ul>
-            <Link id='link' to="/BodyMeasure"><li>Distância</li></Link>
+            <Link id='link' to="/"><li>Distância</li></Link>
             <Link id='link' to="/BodyTemperature"><li>Temperatura</li></Link>
             <Link id='link' to="/BodyCurrency"><li>Moeda</li></Link>            
           </ul>

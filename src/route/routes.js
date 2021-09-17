@@ -7,8 +7,8 @@ import BodyTemperature from "../components/body/bodyTemperature";
 
 const Routes = () => {
   return (
-    <BrowserRouter>
-        <Route path='/BodyMeasure' component={BodyMeasure} />
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Route path='/' component={BodyMeasure} />
         <Route path='/BodyTemperature' component={BodyTemperature} />
         <Route path='/BodyCurrency' component={BodyCurrency} />      
     </BrowserRouter>
