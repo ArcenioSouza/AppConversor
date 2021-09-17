@@ -26,4 +26,4 @@ npm run start
 yarn run start
 ```
 
-**Quem quiser ver o app funcionando:** `https://app-conversor.netlify.app/`
+**Quem quiser ver o app funcionando:** [app-conversor](https://app-conversor.netlify.app/)
