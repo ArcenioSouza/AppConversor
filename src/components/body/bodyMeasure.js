@@ -1,6 +1,5 @@
 import React from "react";
 import '../body/body.css';
-import Navbar from '../../components/navbar/navbar'
 
 const BodyMeasure = () => {
 
@@ -90,7 +89,6 @@ const BodyMeasure = () => {
 
   return(
     <>
-    <Navbar/>
     <div className='body-container'>
       <div className='body-title'>
         <h1>Conversor de <span id='type-converter'>Distâncias</span></h1>

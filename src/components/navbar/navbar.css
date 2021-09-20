@@ -54,3 +54,8 @@
   background-color: #ff0000;
   border-radius: 25px;
 }
+
+.wrapper-options #options-list ul .active{
+  background-color: #ff0000;
+  border-radius: 25px;
+}

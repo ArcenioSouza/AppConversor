@@ -1,6 +1,5 @@
 import React from "react";
 import '../body/body.css';
-import Navbar from '../../components/navbar/navbar'
 
 const BodyTemperature = () => {
 
@@ -64,7 +63,6 @@ const BodyTemperature = () => {
 
   return(
     <>
-    <Navbar/>
     <div className='body-container'>
       <div className='body-title'>
         <h1>Conversor de <span id='type-converter'>Temperaturas</span></h1>

@@ -1,6 +1,5 @@
 import React from "react";
 import '../body/body.css';
-import Navbar from '../../components/navbar/navbar'
 
 const BodyCurrency = () => {
 
@@ -71,7 +70,6 @@ const BodyCurrency = () => {
 
   return(
     <>
-    <Navbar/>
     <div className='body-container'>
       <div className='body-title'>
         <h1>Conversor de <span id='type-converter'>Moedas</span></h1>

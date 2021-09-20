@@ -4,6 +4,36 @@ import { Link } from "react-router-dom"
 
 const Navbar = () => {
 
+  const activeDist = () => {
+    const distancia = document.getElementById('distancia')
+    const temperatura = document.getElementById('temperatura')
+    const moeda = document.getElementById('moeda')
+
+    distancia.className = 'active'
+    temperatura.className = ''
+    moeda.className = ''    
+  }
+
+  const activeTemp = () => {
+    const distancia = document.getElementById('distancia')
+    const temperatura = document.getElementById('temperatura')
+    const moeda = document.getElementById('moeda')
+
+    distancia.className = ''
+    temperatura.className = 'active'
+    moeda.className = ''    
+  }
+
+  const activeMoeda = () => {
+    const distancia = document.getElementById('distancia')
+    const temperatura = document.getElementById('temperatura')
+    const moeda = document.getElementById('moeda')
+
+    distancia.className = ''
+    temperatura.className = ''
+    moeda.className = 'active'    
+  }
+
   return(
     <div className='container'>
       <div className='wrapper-title'>
@@ -15,9 +45,9 @@ const Navbar = () => {
         </div>
         <div id='options-list'>
           <ul>
-            <li><Link id='link' to="/">Distância</Link></li>
-            <li><Link id='link' to="/Temperature">Temperatura</Link></li>
-            <li><Link id='link' to="/Currency">Moeda</Link></li>            
+            <li id='distancia' className='active' onClick={activeDist}><Link id='link' to="/">Distância</Link></li>
+            <li id='temperatura' onClick={activeTemp}><Link id='link' to="/Temperature">Temperatura</Link></li>
+            <li id='moeda' onClick={activeMoeda}><Link id='link' to="/Currency">Moeda</Link></li>            
           </ul>
         </div>
       </div>
